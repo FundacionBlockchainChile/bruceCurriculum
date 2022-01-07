@@ -1,0 +1,143 @@
+/* .container {
+  width: 970px;
+  height: 800px;
+  margin: 50px auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  items-align: center;
+  margin: 0 auto;
+
+} */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  /* border: 1px dotted rebeccapurple; */
+}
+
+html {
+  margin: 0 auto;
+}
+
+body {
+  margin: 40px auto;
+  max-width: 920px;
+  background-color: black;
+  color: white;
+  text-align: justify;
+  padding: 20px 0;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.section {
+  margin: 20px 0;
+  border-top: 1px solid red;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+h1 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+h3 {
+  width: 100%;
+  background-color: red;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+a {
+  list-style: none;
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: red;
+  padding: 5 20px;
+  width: 100%;
+}
+
+a:hover {
+  color: white;
+  background: red;
+
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn {
+  padding: 5px 20px;
+  background-color: red;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow:
+    inset 0 0 50px #fff,
+    /* inner white */
+    inset 20px 0 80px #f0f,
+    /* inner left magenta short */
+    inset -20px 0 80px #0ff,
+    /* inner right cyan short */
+    inset 20px 0 300px #f0f,
+    /* inner left magenta broad */
+    inset -20px 0 300px #0ff,
+    /* inner right cyan broad */
+    0 0 50px #fff,
+    /* outer white */
+    -10px 0 80px #f0f,
+    /* outer left magenta */
+    10px 0 80px #0ff;
+  /* outer right cyan */
+}
+
+.btn a {
+  list-style: none;
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  padding: 5 20px;
+  width: 100%;
+}
+
+.btn a:hover {
+  color: white;
+  background: transparent;
+
+}
