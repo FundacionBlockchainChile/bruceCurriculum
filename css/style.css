@@ -45,9 +45,24 @@ body {
   align-items: space-between;
 }
 
+@media (max-width: 450px) {
+
+  body {
+    margin: 5px auto;
+
+  }
+
+  .images {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100vw;
+  }
+}
+
 img {
-  max-width: 220px;
-  max-height: 150px;
+  min-width: 220px;
 }
 
 h1 {
